@@ -1,0 +1,69 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../images/shaping.jpg");
+
+  /* Full height */
+  height: 75%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.checked{
+  color: orange;
+}
+
+hr {
+  display: block;
+  margin-top: 3.4em;
+  margin-bottom: 3.4em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.bio {
+  font-size: 2em;
+}
+p.subheader{
+  font-size: 2.5em;
+}
+
+p.review{
+  font-size: 3em;
+}
+
+h1.title{
+  font-size: 4.5em;
+}
